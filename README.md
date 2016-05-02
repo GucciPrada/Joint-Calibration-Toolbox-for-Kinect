@@ -89,13 +89,9 @@ To have a better understanding of how you should capture your data, please do it
 <img href="url"><img src="assets//Around_Y.gif" align="left" height="250" width="360" border="20">
 <img href="url"><img src="assets//Around_X.gif" align="left" height="250" width="360" border="20">
 <img href="url"><img src="assets//Misc_ori.gif" align="left" height="250" width="360" border="20">
-<p>
-asdoa jsdi a
 
-asdoa jsdi a
-asdoa jsdi a
+<a href="url"><img src="placeholder" align="middle" height="1" width="1000" ></a>
 
-</p>
 
 #### View depth data
 
