@@ -1,0 +1,16 @@
+﻿Build started 2015/2/7 1:56:23.
+     1>Project "D:\Kinect\lib\yaml-0.1.5\win32\vs2008\example_reformatter_alt.vcxproj" on node 4 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Build\Debug\bin\) contains files shared from another project (example_deconstructor_alt.vcxproj, example_reformatter.vcxproj, example_deconstructor.vcxproj, run_dumper.vcxproj, run_emitter.vcxproj, run_loader.vcxproj, run_parser.vcxproj, run_scanner.vcxproj, test_reader.vcxproj, test_version.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D YAML_DECLARE_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Build\Debug\bin\\" /Fd"Build\Debug\bin\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /FS "..\..\tests\example-reformatter-alt.c"
+         example-reformatter-alt.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Output\Debug\bin\example_reformatter_alt.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Output\Debug\bin\example_reformatter_alt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Output\Debug\bin\example_reformatter_alt.lib" /MACHINE:X86 /SAFESEH "Build\Debug\bin\example-reformatter-alt.obj"
+         "D:\Kinect\lib\yaml-0.1.5\win32\vs2008\Output\Debug\lib\yaml.lib"
+     1>example-reformatter-alt.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         example_reformatter_alt.vcxproj -> D:\Kinect\lib\yaml-0.1.5\win32\vs2008\Output\Debug\bin\example_reformatter_alt.exe
+     1>Done Building Project "D:\Kinect\lib\yaml-0.1.5\win32\vs2008\example_reformatter_alt.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.85

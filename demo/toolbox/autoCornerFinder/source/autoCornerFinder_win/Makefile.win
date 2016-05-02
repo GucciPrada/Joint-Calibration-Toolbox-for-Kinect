@@ -1,0 +1,33 @@
+# Project: Project1
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o cvcalibinit3.o $(RES)
+LINKOBJ  = main.o cvcalibinit3.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -L"C:/Program Files/OpenCV/lib" -L"C:/Program Files/Intel/IPP/6.0.1.070/ia32/lib" -L"C:/Program Files/Intel/IPP/6.0.1.070/ia32/stublib" -lcxcore -lcv -lhighgui -lcvcam -lcvaux  
+INCS =  -I"C:/Dev-Cpp/include"  -I"C:/Program Files/OpenCV/cxcore/include"  -I"C:/Program Files/OpenCV/cv/include"  -I"C:/Program Files/OpenCV/otherlibs/highgui"  -I"C:/Program Files/OpenCV/cvaux/include"  -I"C:/Program Files/OpenCV/otherlibs/cvcam/include"  -I"C:/Program Files/OpenCV/cv/src"  -I"C:/Program Files/Intel/IPP/6.0.1.070/ia32/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"  -I"C:/Program Files/OpenCV/cxcore/include"  -I"C:/Program Files/OpenCV/cv/include"  -I"C:/Program Files/OpenCV/otherlibs/highgui"  -I"C:/Program Files/OpenCV/otherlibs/cvcam/include"  -I"C:/Program Files/OpenCV/cvaux/include"  -I"C:/Program Files/OpenCV/cv/src"  -I"C:/Program Files/Intel/IPP/6.0.1.070/ia32/include" 
+BIN  = FindCorners.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before FindCorners.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "FindCorners.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+cvcalibinit3.o: cvcalibinit3.cpp
+	$(CPP) -c cvcalibinit3.cpp -o cvcalibinit3.o $(CXXFLAGS)

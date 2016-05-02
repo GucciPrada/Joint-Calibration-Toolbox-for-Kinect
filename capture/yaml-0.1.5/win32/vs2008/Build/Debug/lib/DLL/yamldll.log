@@ -1,0 +1,34 @@
+﻿Build started 2015/2/7 1:56:22.
+     1>Project "D:\Kinect\lib\yaml-0.1.5\win32\vs2008\yamldll.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D HAVE_CONFIG_H /D YAML_DECLARE_EXPORT /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Build\Debug\lib\DLL\\" /Fd"Build\Debug\lib\DLL\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /FS ..\..\src\api.c ..\..\src\dumper.c ..\..\src\emitter.c ..\..\src\loader.c ..\..\src\parser.c ..\..\src\reader.c ..\..\src\scanner.c ..\..\src\writer.c
+         writer.c
+         scanner.c
+         reader.c
+         parser.c
+         loader.c
+         emitter.c
+         dumper.c
+     1>d:\kinect\lib\yaml-0.1.5\src\dumper.c(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         api.c
+     1>d:\kinect\lib\yaml-0.1.5\src\api.c(66): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(D:\Kinect\lib\yaml-0.1.5\win32\vs2008\Output\Debug\lib\DLL\yamldll.dll) does not match the Linker's OutputFile property value (D:\Kinect\lib\yaml-0.1.5\win32\vs2008\Output\Debug\lib\DLL\yaml.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(yamldll) does not match the Linker's OutputFile property value (yaml). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Output\Debug\lib\DLL\yaml.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Output\Debug\lib\DLL\yaml.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Output\Debug\lib\DLL\yaml.lib" /MACHINE:X86 /SAFESEH /DLL Build\Debug\lib\DLL\api.obj
+         Build\Debug\lib\DLL\dumper.obj
+         Build\Debug\lib\DLL\emitter.obj
+         Build\Debug\lib\DLL\loader.obj
+         Build\Debug\lib\DLL\parser.obj
+         Build\Debug\lib\DLL\reader.obj
+         Build\Debug\lib\DLL\scanner.obj
+         Build\Debug\lib\DLL\writer.obj
+         yamldll.vcxproj -> D:\Kinect\lib\yaml-0.1.5\win32\vs2008\Output\Debug\lib\DLL\yamldll.dll
+     1>Done Building Project "D:\Kinect\lib\yaml-0.1.5\win32\vs2008\yamldll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71

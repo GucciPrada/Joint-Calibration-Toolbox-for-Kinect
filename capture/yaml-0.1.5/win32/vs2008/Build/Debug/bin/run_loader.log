@@ -1,0 +1,18 @@
+﻿Build started 2015/2/7 1:56:35.
+     1>Project "D:\Kinect\lib\yaml-0.1.5\win32\vs2008\run_loader.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Build\Debug\bin\) contains files shared from another project (example_deconstructor_alt.vcxproj, example_reformatter.vcxproj, example_reformatter_alt.vcxproj, example_deconstructor.vcxproj, run_dumper.vcxproj, run_emitter.vcxproj, run_parser.vcxproj, run_scanner.vcxproj, test_reader.vcxproj, test_version.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D YAML_DECLARE_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Build\Debug\bin\\" /Fd"Build\Debug\bin\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /FS "..\..\tests\run-loader.c"
+         run-loader.c
+     1>d:\kinect\lib\yaml-0.1.5\tests\run-loader.c(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Output\Debug\bin\run_loader.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Output\Debug\bin\run_loader.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Output\Debug\bin\run_loader.lib" /MACHINE:X86 /SAFESEH "Build\Debug\bin\run-loader.obj"
+         "D:\Kinect\lib\yaml-0.1.5\win32\vs2008\Output\Debug\lib\yaml.lib"
+     1>run-loader.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         run_loader.vcxproj -> D:\Kinect\lib\yaml-0.1.5\win32\vs2008\Output\Debug\bin\run_loader.exe
+     1>Done Building Project "D:\Kinect\lib\yaml-0.1.5\win32\vs2008\run_loader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.36

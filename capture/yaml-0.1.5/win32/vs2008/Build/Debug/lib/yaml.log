@@ -1,0 +1,32 @@
+﻿Build started 2015/2/7 1:56:22.
+     1>Project "D:\Kinect\lib\yaml-0.1.5\win32\vs2008\yaml.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.. /I../../include /ZI /nologo /W3 /WX- /Od /Oy- /D HAVE_CONFIG_H /D YAML_DECLARE_STATIC /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Build\Debug\lib\\" /Fd"Build\Debug\lib\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt /FS ..\..\src\api.c ..\..\src\dumper.c ..\..\src\emitter.c ..\..\src\loader.c ..\..\src\parser.c ..\..\src\reader.c ..\..\src\scanner.c ..\..\src\writer.c
+         writer.c
+         scanner.c
+         reader.c
+         parser.c
+         loader.c
+         emitter.c
+         dumper.c
+     1>d:\kinect\lib\yaml-0.1.5\src\dumper.c(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         api.c
+     1>d:\kinect\lib\yaml-0.1.5\src\api.c(66): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(245) : see declaration of 'strdup'
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Output\Debug\lib\yaml.lib" /NOLOGO Build\Debug\lib\api.obj
+         Build\Debug\lib\dumper.obj
+         Build\Debug\lib\emitter.obj
+         Build\Debug\lib\loader.obj
+         Build\Debug\lib\parser.obj
+         Build\Debug\lib\reader.obj
+         Build\Debug\lib\scanner.obj
+         Build\Debug\lib\writer.obj
+         yaml.vcxproj -> D:\Kinect\lib\yaml-0.1.5\win32\vs2008\Output\Debug\lib\yaml.lib
+     1>Done Building Project "D:\Kinect\lib\yaml-0.1.5\win32\vs2008\yaml.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.60

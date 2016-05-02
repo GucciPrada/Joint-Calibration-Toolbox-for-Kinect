@@ -1,0 +1,15 @@
+﻿Build started 3/2/2015 9:04:16 PM.
+     1>Project "C:\Users\xw_11_000\Dropbox\research\Kinect\code\capture\opencv_capture\opencv_capture\opencv_capture.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\opencv_capture.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt openni_capture.cpp
+         openni_capture.cpp
+     1>c:\users\xw_11_000\dropbox\research\kinect\code\capture\opencv_capture\opencv_capture\openni_capture.cpp(87): warning C4244: 'initializing' : conversion from 'float' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\xw_11_000\Dropbox\research\Kinect\code\capture\opencv_capture\Debug\opencv_capture.exe" /INCREMENTAL /NOLOGO opencv_core2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_video2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\xw_11_000\Dropbox\research\Kinect\code\capture\opencv_capture\Debug\opencv_capture.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\xw_11_000\Dropbox\research\Kinect\code\capture\opencv_capture\Debug\opencv_capture.lib" /MACHINE:X86 Debug\openni_capture.obj
+         Debug\stdafx.obj
+         opencv_capture.vcxproj -> C:\Users\xw_11_000\Dropbox\research\Kinect\code\capture\opencv_capture\Debug\opencv_capture.exe
+     1>Done Building Project "C:\Users\xw_11_000\Dropbox\research\Kinect\code\capture\opencv_capture\opencv_capture\opencv_capture.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.78
