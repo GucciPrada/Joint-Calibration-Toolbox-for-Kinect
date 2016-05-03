@@ -1,5 +1,33 @@
 # Joint-Calibration-Toolbox-for-Kinect
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+=================
+- [Code](#code)
+- [Usage](#usage)
+- [Demo](#demo)
+  - [Offline calibration](#offline-calibration)
+  - [Online calibration](#online-calibration)
+  - [Offline vs. Online](#offline-vs-online)
+  - [Illustration](#illustration)
+  - [View depth data](#view-depth-data)
+- [Capture](#capture)
+- [Record](#record)
+- [Configuration](#configuration)
+- [Environment](#environment)
+- [Compile libfreenect yourself](#compile-libfreenect-yourself)
+- [After Calibration](#after-calibration)
+- [Visualization](#visualization)
+- [Reprojection](#reprojection)
+- [Dispatiry file content](#dispatiry-file-content)
+- [Conversion between disparity and depth](#conversion-between-disparity-and-depth)
+- [Reference](#reference)
+- [Update](#update)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
 <section>
 
 ## Code
