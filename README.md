@@ -164,7 +164,7 @@ The code is dependent on 3rd-lib **libfreenect** to connect Kinect, I have compi
 
 You may find that you are not able to run _kinect.mex_ when capturing data, which means, you have to compile libfreenect yourself.
 
-However, if you are using Matlab/Windows of 32-bit, you may have painful experience in resolving dependencies to compile libfreenect on your own system.
+However, if you are using Matlab/Windows of 32-bit, you may encounter painful experiences in resolving dependencies to compile libfreenect on your own system.
 For your reference, I am attaching the environment and all dependencies used when I was compiling libfreenect:
 
 *   Platforms: Windows 7 (64-bit) + Matlab (64-bit) + Visual Studio 2010 (32-bit--only) + Windows SDK 7.1
@@ -248,7 +248,7 @@ Here are some recommendations for reading pgm files:
 
 ## Reference
 
-If you find this toolbox useful, plese cite our paper at:
+If you find this toolbox useful, please cite our paper at:
 
 ```
 @inproceedings{xiang2015review,
